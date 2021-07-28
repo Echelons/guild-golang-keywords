@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/verticalscope/guild-golang/internal"
+	"github.com/echelons/guild-golang-keywords/internal/constants"
 )
 
 func main() {
-	fmt.Printf("I'm running on: %s", internal.SystemType)
+	fmt.Printf("I'm running on: %s\n", constants.SystemType)
 }
