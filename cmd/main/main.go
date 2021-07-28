@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Printf("The important number is: %d", internal.ImportantNumber)
+	fmt.Printf("I'm running on: %s", internal.SystemType)
 }

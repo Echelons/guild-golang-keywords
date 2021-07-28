@@ -1,5 +1,5 @@
 package internal
 
 const (
-	ImportantNumber = 100
+	SystemType = "darwin arm64"
 )
