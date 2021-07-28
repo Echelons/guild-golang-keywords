@@ -8,6 +8,6 @@ RUN go mod download
 
 COPY . ./
 
-RUN env GOOS=linux GOARCH=amd64 go build -o /main cmd/main/main.go
+RUN env GOOS=linux GOARCH=amd64 go build -o /main cmd/system/main.go
 
 CMD [ "/main" ]
